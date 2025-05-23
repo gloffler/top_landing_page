@@ -1,3 +1,25 @@
-.header {
+* {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    color: #F9FAF8;
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 20px;
 }
