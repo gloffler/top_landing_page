@@ -3,6 +3,7 @@
 @import url(styles/navbar.css);
 @import url(styles/showcase.css);
 @import url(styles/metaphor.css);
+@import url(styles/cta.css);
 
 * {
     font-family: Roboto, sans-serif;
