@@ -2,8 +2,8 @@
     flex: 1;
     display: flex;
     justify-content: space-between;
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: var(--clr-text-primary);
+    background-color: var(--clr-bg-primary);
     padding: 5rem 15rem;
 }
 
@@ -19,7 +19,7 @@
 
 .hero-text p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: var(--clr-text-secondary);
     margin: 5px 0;
 }
 

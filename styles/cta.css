@@ -7,7 +7,7 @@
 
 .cta-section .cta-card {
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: var(--clr-bg-cta);
     border-radius: 10px;
     padding: 50px 10rem;
     display: flex;

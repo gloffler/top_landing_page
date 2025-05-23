@@ -1,6 +1,6 @@
 .metaphor {
     min-height: 400px;
-    background-color: #E5E7EB;
+    background-color: var(--clr-bg-secondary);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
 }
 
 .metaphor-card p {
-    color: #1F2937;
+    color: var(--clr-header-text);
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;

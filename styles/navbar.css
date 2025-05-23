@@ -15,6 +15,6 @@ nav {
 
 .nav-items a {
     margin: 10px;
-    color: #E5E7EB;
+    color: var(--clr-text-primary);
     text-decoration: none;
 }

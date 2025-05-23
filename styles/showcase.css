@@ -19,7 +19,7 @@
     flex: 0 0 auto;
     display: inline-block;
     border-radius: 15px;
-    border: 4px solid #3882F6;
+    border: 4px solid var(--clr-bg-cta);
     width: 150px;
     height: 150px;
 }

@@ -5,6 +5,20 @@
 @import url(styles/metaphor.css);
 @import url(styles/cta.css);
 
+:root {
+    --global-font: Roboto;
+    --clr-text-primary: #F9FAF8;
+    --clr-text-secondary: #E5E7EB;
+
+    --clr-button-primary: #3882F6;
+    --clr-button-text: white;
+    --clr-header-text: #1F2937;
+
+    --clr-bg-primary: #1F2937;
+    --clr-bg-secondary: var(--clr-text-secondary);
+    --clr-bg-cta: var(--clr-button-primary);
+}
+
 * {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -19,8 +33,8 @@ body {
 }
 
 nav {
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: var(--clr-text-primary);
+    background-color: var(--clr-bg-primary);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,8 +46,8 @@ footer {
     justify-content: center;
     align-items: center;
     min-height: 50px;
-    color: #F9FAF8;
-    background-color: #1F2937;
+    color: var(--clr-text-primary);
+    background-color: var(--clr-bg-primary);
 }
 
 a:hover {
@@ -43,12 +57,12 @@ a:hover {
 
 #secondary-black {
     font-size: 18px;
-    color: #1F2937;
+    color: var(--clr-bg-primary);
     font-weight: 100;
 }
 
 #secondary-white {
     font-size: 18px;
-    color: #F9FAF8;
+    color: var(--clr-text-primary);
     font-weight: 100;
 }
