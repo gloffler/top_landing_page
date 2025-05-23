@@ -11,6 +11,10 @@
     gap: 20px;
 }
 
+.showcase .element {
+    max-width: 150px;
+}
+
 .showcase .element-shape {
     flex: 0 0 auto;
     display: inline-block;
