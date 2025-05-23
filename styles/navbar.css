@@ -1,11 +1,10 @@
-.logo {
-    font-size: 36px;
-    font-weight: 900;
+nav {
     padding: 0 1.5rem;
 }
 
-.nav-items {
-    margin: 0 1.5rem;
+.logo {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .nav-items a {
