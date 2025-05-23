@@ -1,4 +1,5 @@
 @import url(styles/button.css);
+@import url(styles/hero.css);
 
 * {
     font-family: Roboto, sans-serif;
@@ -20,30 +21,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 15rem;
-}
-
-.hero {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    color: #F9FAF8;
-    background-color: #1F2937;
-    padding: 5rem 16.5rem;
-}
-
-.hero-text h1 {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.hero-text p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.hero-image {
-    width: 500px;
-    background-color: aqua;
 }
 
 footer {
