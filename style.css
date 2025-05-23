@@ -87,3 +87,28 @@ button:active {
     box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
     transform: translateY(0em);
 }
+
+.showcase {
+    min-height: 500px;
+    padding: 1.5rem 16.5rem;
+}
+
+.showcase .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.showcase .element {
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+.showcase .showcase-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
