@@ -1,4 +1,28 @@
 .metaphor {
     min-height: 400px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.metaphor-card {
+    max-width: 700px;
+}
+
+.metaphor-card p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.metaphor-credit {
+    text-align: end;
+}
+
+#bold {
+    font-weight: 900;
+    font-size: 20px;
 }
