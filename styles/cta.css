@@ -1,0 +1,13 @@
+.cta-section {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section .cta-card {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px 15rem;
+}
